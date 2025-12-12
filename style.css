@@ -1,22 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    font-family: 'Science Gothic';
+    background-color: #0a0e23; /* Fond bleu nuit profond */
+    color: #e6f1ff; /* Texte clair pour contraste */
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background-color: #4CAF50;
+    background-color: #1a3a8f; /* Bleu ciel profond */
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border: 1px solid #3d7ddd; /* Bordure bleue claire */
+    box-shadow: 0 0 10px rgba(61, 125, 221, 0.5); /* Effet de lueur bleue */
+    transition: all 0.3s ease;
 }
 
-    .button:hover {
-        background-color: #45a049;
-    }
+.button:hover {
+    background-color: #3d7ddd; /* Bleu plus clair au survol */
+    box-shadow: 0 0 15px rgba(61, 125, 221, 0.8);
+}
 
 .mouvements {
     margin-top: 20px;

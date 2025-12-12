@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Félicitations !</h1>
-    <p>Vous avez trouvé la sortie en <?php echo $_SESSION['deplacements']; ?> déplacements.</p>
-    <a href="index.php" class="button">Recommencer</a>
+    <h1>FÃ©licitations !</h1>
+    <p>Tu as trouvÃ© la sortie du labyrinthe en <?= $_SESSION['deplacements'] ?> coups.</p>
+    <a href="labyrinthe.php?reset=1" class="button">Rejouer</a>
 </body>
 </html>
